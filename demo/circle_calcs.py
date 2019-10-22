@@ -19,3 +19,5 @@ def circle_calculations(df, radius='radius'):
 
     df['circumference'] = 2 * pi * df[radius]
     df['area'] = pi * df[radius] ** 2
+
+    # extra comment for test
