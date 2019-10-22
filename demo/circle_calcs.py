@@ -21,4 +21,4 @@ def circle_calculations(df, radius='radius'):
     df['area'] = pi * df[radius] ** 2
 
     # extra comment for test
-    # extra comment for tag1
+    # extra comment for tag2
