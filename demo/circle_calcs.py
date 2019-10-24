@@ -7,12 +7,7 @@ from math import pi
 
 def circle_calculations(df, radius='radius'):
     """
-    Calculates the circumference and area of a circle 
-    given a column of radius and adds the result to the
-    dataframe
-    Input:
-        df -- dataframe
-        radius -- column name containing the radius values
+    Version: pdext_test_tag tag
     """
     if radius not in df.columns:
         raise IndexError('Radius column {} not in dataframe')
