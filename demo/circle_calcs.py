@@ -14,3 +14,23 @@ def circle_calculations(df, radius='radius'):
 
     df['circumference'] = 2 * pi * df[radius]
     df['area'] = pi * df[radius] ** 2
+    
+def circle_calculations2(df, radius='radius'):
+    """
+    Version: test branch
+    """
+    if radius not in df.columns:
+        raise IndexError('Radius column {} not in dataframe')
+
+    df['circumference2'] = 2 * pi * df[radius]
+    df['area2'] = pi * df[radius] ** 2
+    
+def circle_calculations3(df, radius='radius'):
+    """
+    Version: test branch
+    """
+    if radius not in df.columns:
+        raise IndexError('Radius column {} not in dataframe')
+
+    df['circumference3'] = 2 * pi * df[radius]
+    df['area3'] = pi * df[radius] ** 2
