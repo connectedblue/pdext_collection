@@ -1,6 +1,6 @@
 """
 An example pandas dataframe extension that can be added
-and shared easily using the pdext framework
+and shared easily using the pandex framework
 """
 
 from math import pi
